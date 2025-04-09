@@ -8,6 +8,7 @@ Position: Manual tester
 
 This project uses **[Playwright](https://playwright.dev/)** to write **end-to-end tests** in **TypeScript**, designed to test the login functionality at:  
 👉 https://brand-cp.komobook.com/login
+👉 https://the-internet.herokuapp.com/checkboxes
 
 ---
 
