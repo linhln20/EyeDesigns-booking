@@ -17,18 +17,20 @@ This project uses **[Playwright](https://playwright.dev/)** to write **end-to-en
 ```bash
 npm install -D @playwright/test
 npx playwright install
-
+```
 # Create the repository
-```bash
+```
 cd <project-folder>npm init playwright@latest
 Playwright
-
-#How to run test
+```
+# How to run test
+```
 npx playwright test
-
+```
 # Run a specific test file:
+```
 npx playwright test tests/login.spec.ts
-
+```
 # Project Structure
 .
 ├── tests/
@@ -38,7 +40,7 @@ npx playwright test tests/login.spec.ts
 ├── playwright.config.ts       # Playwright configuration file (optional)
 └── README.md
 
-#Covered Test Cases
+# Covered Test Cases
 Eye Design booking:
 * Open login page
 * Enter valid credentials
